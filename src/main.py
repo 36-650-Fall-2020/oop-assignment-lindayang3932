@@ -3,9 +3,10 @@
 # Follow the guidelines in the homework document
 # Don't forget to add data folder for your data
 # Replace the following line with real application code
+import sys
 import pandas as pd 
 import string 
-import sys
+
 from read_state_module import read_state
 from read_country_module import read_country
 from read_county_module import read_county
