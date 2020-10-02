@@ -12,7 +12,7 @@ from read_county_module import read_county
 
 # initiate read country class and reads/process file
 def country():
-    files = "us.csv"
+    files = "data/us.csv"
     print("Country data was chosen...")
     data = read_country(files)
     data.read_file()
@@ -32,7 +32,7 @@ def country():
 
 # initiate read state class and reads/process file
 def state():
-    files = "us-states.csv"
+    files = "data/us-states.csv"
     data = read_state(files)
     data.read_file()
     data.date_reformat()
@@ -42,7 +42,7 @@ def state():
 
 # initiate read county class and reads/process file
 def counties():
-    files = "us-counties.csv"
+    files = "data/us-counties.csv"
     data_county = read_county(files)
     data_county.read_file()
     data_county.date_reformat()
