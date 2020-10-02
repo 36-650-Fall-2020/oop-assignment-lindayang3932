@@ -1,7 +1,7 @@
 import sys
-from abc import ABC, abstractmethod
-class read (ABC):
-    
+from abc import ABCMeta, abstractmethod
+class read ():
+    __metaclass__ = ABCMeta
     @abstractmethod
     def read_file(self):
         pass
