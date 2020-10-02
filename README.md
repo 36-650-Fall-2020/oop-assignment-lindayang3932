@@ -5,10 +5,7 @@
 In this repository, you'll work on your homework assignments and submit your completed assignments for review by the TAs.
 
 ### OOPY Concepts Used:
-1. Your Source Code should be located under src folder.
-2. Update the checklist document under docs folder
-3. Add your datasets under data folder
-4. In this ReadMe, append screenshots, documentation, and other requirements
+
 
 
 
@@ -23,3 +20,5 @@ Class attributes and methods: Each non-abstract class has attributes to store th
 Inheritance: My read_country class is a parent to the read_state class which is also a parent to the read_county classes. Thus read_state inherates methods, constructors, and attributes from read_country. Similarly, read_county inherates methods, constructors, and attributes from read_country and read_state.
 
 Abstract classes: read is my only abstract class. The read class has two abstract methods read_file() and date_reformat(). I chose these to be my abstract methods that the child class read_country would have to implement because all files need to be read and the date column needs to be reformatted regardless of data file type. 
+
+![alt](https://github.com/36-650-Fall-2020/oop-assignment-lindayang3932/blob/master/sonarcube.png)
